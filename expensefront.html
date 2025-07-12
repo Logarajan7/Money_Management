@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EXPENSE</title>
+    <link rel="stylesheet" href="styles/expensefront.css">
+  </head>
+
+  <body style="margin: 0;">
+    <div class="expense-top-division">
+      
+      <div class="expense-moneymap">
+        <button id="moneymapButton" class="moneymap-button">
+          MONEYMAP
+        </button>
+      </div>
+
+      <div class="expense-expense">
+        EXPENSE
+      </div>
+
+    </div>
+    
+    <div class="expense-bottom-division">
+
+      <div class="expense-left-division">
+
+        <div  class="add-expense-heading-division">
+          ADD EXPENSE
+        </div>
+
+        <div class="expense-add-division">
+
+          <div>
+            <p class="add-expense-elements-para">
+              Title
+            </p>
+            <input class="title-and-amount-bar js-add-expense-title"  placeholder="Enter title">
+          </div>
+
+          <div>
+            <p class="add-expense-elements-para">
+              Amount
+            </p>
+            <input class="title-and-amount-bar js-add-expense-amount" type="number" placeholder="Enter amount in rupees">
+          </div>
+
+          <div>
+            <p class="add-expense-elements-para">
+              Account
+            </p>
+            <select class="account-and-category-select-bar js-add-expense-account" name="choices" id="choices">
+              <option value="default" selected disabled>Select an option</option>
+              <option value="Bank">Bank</option>
+              <option value="Cash">Cash</option>
+              <option value="UPI">UPI</option>
+              <option value="Cards">Cards</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+
+          <div>
+            <p class="add-expense-elements-para">
+              Category
+            </p>
+            <select class="account-and-category-select-bar js-add-expense-category" name="choices" id="choices">
+              <option value="default" selected disabled>Select an option</option>
+              <option value="Food and Drinks">Food and Drinks</option>
+              <option value="Cloths">Cloths</option>
+              <option value="Entertainment">Entertainment</option>
+              <option value="Health">Health</option>
+              <option value="Household">Household</option>
+              <option value="Make Investment">Make Investment</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+
+          <div>
+            <p class="add-expense-elements-para">
+              Date
+            </p>
+            <input class="date-bar js-add-expense-date" type="date">
+          </div>
+
+        </div>
+
+        <div class="clear-submit-buttom-division">
+          <button onclick="clearexpense();" class="clear-button">
+            clear
+          </button>
+          <button onclick="submitExpense();" class="submit-button">
+            submit
+          </button>
+        </div>
+        
+      </div>
+
+      <div class="expense-right-division">
+        <p class="expense-records-heading">Expense Recodes</p>
+
+        <div class="expense-record-head-division">
+          <div class="expense-record-title">TITLE</div>
+          <div class="expense-record-amount">AMOUNT</div>
+          <div class="expense-record-account">ACCOUNT</div>
+          <div class="expense-record-category">CATEGORY</div>
+          <div class="expense-record-date">DATE</div>
+        </div>
+
+        <div class="expense-records js-expense-record"></div>
+
+      </div>
+
+    </div>
+
+    <script src="javaS/expense.js"></script>
+  </body>
+</html>

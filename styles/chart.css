@@ -1,0 +1,222 @@
+.body-style {
+  margin: 0;
+}
+
+.front-top {
+  position: fixed;
+  top: 0;
+  display: grid; 
+  grid-template-columns: 300px 1fr;
+  height: 130px;
+  border-bottom-style: solid;
+  border-color: lightgray;
+}
+
+.money-map-division {
+  height: 130px;
+  display: inline-block;
+  background-color: #003262;
+}
+
+.money-map {
+  margin: 0;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 38px;
+}
+
+.chart-head-division {
+  background-color: rgb(241, 241, 241);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #00B9E8;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 32px;
+  width: 1250px;
+}
+
+.front-bottom {
+  display: grid; 
+  grid-template-columns: 300px 1fr;
+  margin-top: 130px;
+}
+
+.front-left {
+  position: fixed;
+  top: 130px;
+  height: 599px;
+  width: 300px;
+  background-color: #003262;
+  display: inline-block;
+}
+
+.profile-division {
+  background-color: #003262;
+}
+
+.profile-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.profile-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.profile-element:active {
+  opacity: 0.8;
+}
+
+.dashboard-side-division {
+  background-color: #003262;
+}
+
+.dashboard-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dashboard-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-element:active {
+  opacity: 0.8;
+}
+
+.calendar-division {
+  background-color: 003262;
+}
+
+.calendar-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.calendar-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.calendar-element:active {
+  opacity: 0.8;
+}
+
+.generate-report-division {
+  background-color: 003262;
+}
+
+.generate-report-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.generate-report-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.generate-report-element:active {
+  opacity: 0.8;
+}
+
+.total-division {
+  background-color: 003262;
+}
+
+.total-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.total-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.total-element:active {
+  opacity: 0.8;
+}
+
+.chart-right-division {
+  margin-top: 0px;
+  margin-left: 300px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 100px;
+  /*margin: 0px auto;*/
+  text-align: center;
+  height: 580px;
+  width: 1000px;
+}
+
+canvas {
+  max-width: 100%;
+}
+
+

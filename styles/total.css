@@ -1,0 +1,206 @@
+.body-style {
+  margin: 0;
+}
+
+.front-top {
+  display: grid; 
+  grid-template-columns: 300px 1fr;
+}
+
+.money-map-division {
+  height: 130px;
+  display: inline-block;
+  background-color: #003262;
+}
+
+.money-map {
+  margin: 0;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 38px;
+}
+
+.total-head-division {
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #00B9E8;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 32px;
+  border-bottom-style: solid;
+  border-color: lightgray;
+}
+
+.front-bottom {
+  display: grid; 
+  grid-template-columns: 300px 1fr;
+}
+
+.front-left {
+  height: 599px;
+  background-color: #003262;
+  display: inline-block;
+}
+
+.dashboard-side-division {
+  background-color: #003262;
+}
+
+.dashboard-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dashboard-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-element:active {
+  opacity: 0.8;
+}
+
+.chart-division {
+  background-color: #003262;
+}
+
+.chart-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.chart-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.chart-element:active {
+  opacity: 0.8;
+}
+
+.calendar-division {
+  background-color: 003262;
+}
+
+.calendar-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.calendar-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.calendar-element:active {
+  opacity: 0.8;
+}
+
+.generate-report-division {
+  background-color: 003262;
+}
+
+.generate-report-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.generate-report-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.generate-report-element:active {
+  opacity: 0.8;
+}
+
+.profile-division {
+  background-color: #003262;
+}
+
+.profile-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.profile-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.profile-element:active {
+  opacity: 0.8;
+}
+
+.front-right {
+  background-color: rgb(241, 241, 241);
+  height: 599px;
+  display: grid;
+  grid-template-rows: 140px 140px 140px;
+}
+
+.total-income,
+.total-expense,
+.total-budget {
+  align-content: center;
+  padding-left: 30px;
+  font-family: arial;
+  font-size: 30px;
+}

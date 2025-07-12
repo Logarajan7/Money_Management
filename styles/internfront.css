@@ -1,0 +1,136 @@
+.front-top {
+  display: grid; 
+  grid-template-columns: 300px 1fr;
+}
+
+.money-map-division {
+  height: 130px;
+  display: inline-block;
+  background-color: #003262;
+}
+
+.money-map {
+  margin: 0;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 38px;
+}
+
+.dashboard-division {
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #00B9E8;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 32px;
+  border-bottom-style: solid;
+  border-color: lightgray;
+}
+
+.front-bottom {
+  display: grid; 
+  grid-template-columns: 300px 1fr;
+}
+
+.front-left {
+  height: 599px;
+  background-color: #003262;
+  display: inline-block;
+}
+
+.side-bar-element {
+  background-color: #003262;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  font-size: 24px;
+  font-family: Arial;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.side-bar-element:hover {
+  background-color: white;
+  color: #003262;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+}
+
+.side-bar-element:active {
+  opacity: 0.8;
+}
+
+.front-right {
+  display: inline-block;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+}
+
+.icons {
+  height: 150px;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+.income-element,
+.expense-element,
+.budget-element,
+.transaction-element {
+  background-color: rgb(15, 82, 186);
+  color: white;
+  border-color: rgb(241, 241, 241);
+  border-style: solid;
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 130px;
+  margin-top: 10px;
+  border-width: 4px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.income-element:hover,
+.expense-element:hover,
+.budget-element:hover,
+.transaction-element:hover {
+  color: rgb(15, 82, 186);
+  background-color: white;
+  border-color: rgb(15, 82, 186);
+  border-style: solid;
+  box-shadow: 10px 10px 10px rgba(15, 82, 186, 0.3);
+}
+
+.income-element:active,
+.expense-element:active,
+.budget-element:active,
+.transaction-element:active {
+  color: rgba(15, 82, 186, 0.5);
+  border-color: rgba(15, 82, 186, 0.5);
+ }
+
+.income-element {
+  padding-left: 103px;
+  padding-right: 103px;
+}
+
+.expense-element {
+  padding-left: 89px;
+  padding-right: 89px;
+}
+
+.budget-element {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.transaction-element {
+  padding-left: 40px;
+  padding-right: 40px;
+}

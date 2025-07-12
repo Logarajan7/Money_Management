@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BUDGET</title>
+    <link rel="stylesheet" href="styles/budgetfront.css">
+  </head>
+
+  <body style="margin: 0;">
+    <div class="budget-top-division">
+      
+      <div class="budget-moneymap">
+        <button id="moneymapButton" class="moneymap-button">
+          MONEYMAP
+        </button>
+      </div>
+
+      <div class="budget-budget">
+        BUDGET
+      </div>
+
+    </div>
+
+    <div class="budget-bottom-division">
+
+      <div class="budget-left-division">
+
+        <div  class="set-budget-heading-division">
+          SET BUDGET
+        </div>
+
+        <div class="budget-add-division">
+
+          <div>
+            <p class="set-budget-elements-para">
+              Food and Drinks
+            </p>
+            <input class="set-budget-amount-bar js-set-fnd-budget" type="number" placeholder="Enter amount in ruppes">
+          </div>
+
+          <div>
+            <p class="set-budget-elements-para">
+              Cloths
+            </p>
+            <input class="set-budget-amount-bar js-set-cloths-budget" type="number" placeholder="Enter amount in ruppes">
+          </div>
+
+          <div>
+            <p class="set-budget-elements-para">
+              Entertainment
+            </p>
+            <input class="set-budget-amount-bar js-set-entertainment-budget" type="number" placeholder="Enter amount in ruppes">
+          </div>
+
+          <div>
+            <p class="set-budget-elements-para">
+              Health
+            </p>
+            <input class="set-budget-amount-bar js-set-health-budget" type="number" placeholder="Enter amount in ruppes">
+          </div>
+
+          <div>
+            <p class="set-budget-elements-para">
+              Household
+            </p>
+            <input class="set-budget-amount-bar js-set-household-budget" type="number" placeholder="Enter amount in ruppes">
+          </div>
+
+          <div>
+            <p class="set-budget-elements-para">
+              Make Investment
+            </p>
+            <input class="set-budget-amount-bar js-set-makeinvest-budget" type="number" placeholder="Enter amount in ruppes">
+          </div>
+
+          <div>
+            <p class="set-budget-elements-para">
+              Others
+            </p>
+            <input class="set-budget-amount-bar js-set-others-budget" type="number" placeholder="Enter amount in ruppes">
+          </div>
+
+        </div>
+
+        <div class="clear-set-buttom-division">
+          <button onclick="clearbudget();" class="clear-button">
+            clear
+          </button>
+          <button onclick="setbudget();" class="set-button">
+            set
+          </button>
+        </div>
+        
+      </div>
+
+      <div class="budget-right-division">
+        <p class="budget-records-heading">Budget Records</p>
+        
+        <div class="budget-records">
+
+          <div class="budget-records-name">
+
+            <div class="budget-record-element">
+              Food and Drinks
+            </div>
+
+            <div class="budget-record-element">
+              Cloths
+            </div>
+
+            <div class="budget-record-element">
+              Entertainment
+            </div>
+
+            <div class="budget-record-element">
+              Health
+            </div>
+
+            <div class="budget-record-element">
+              Household
+            </div>
+
+            <div class="budget-record-element">
+              Make Investment
+            </div>
+
+            <div class="budget-record-element" style="border-style: none;">
+              Others
+            </div>
+
+          </div>
+
+          <div class="budget-records-amount">
+
+            <div class="budget-record-value js-budget-record-fnd"></div>
+
+            <div class="budget-record-value js-budget-record-cloths"></div>
+
+            <div class="budget-record-value js-budget-record-entertainment"></div>
+
+            <div class="budget-record-value js-budget-record-health"></div>
+            
+            <div class="budget-record-value js-budget-record-household"></div>
+
+            <div class="budget-record-value js-budget-record-makeinvest"></div>
+
+            <div class="budget-record-value js-budget-record-others" style="border-style: none;"></div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="javaS/budget.js"></script>
+
+  </body>
+</html>

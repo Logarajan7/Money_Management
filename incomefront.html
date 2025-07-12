@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INCOME</title>
+    <link rel="stylesheet" href="styles/incomefront.css">
+  </head>
+
+  <body style="margin: 0;">
+    <div class="income-top-division">
+      
+      <div class="income-moneymap">
+        <button id="moneymapButton" class="moneymap-button">
+          MONEYMAP
+        </button>
+      </div>
+
+      <div class="income-income">
+        INCOME
+      </div>
+
+    </div>
+    
+    <div class="income-bottom-division">
+
+      <div class="income-left-division">
+
+        <div  class="add-income-heading-division">
+          ADD INCOME
+        </div>
+
+        <div class="income-add-division">
+
+          <div>
+            <p class="add-income-elements-para">
+              Title
+            </p>
+            <input class="title-and-amount-bar js-add-income-title" placeholder="Enter title">
+          </div>
+
+          <div>
+            <p class="add-income-elements-para">
+              Amount
+            </p>
+            <input class="title-and-amount-bar js-add-income-amount" type="number" placeholder="Enter amount in rupees">
+          </div>
+
+          <div>
+            <p class="add-income-elements-para">
+              Account
+            </p>
+            <select class="account-and-category-select-bar js-add-income-account" name="choices" id="choices">
+              <option value="" selected disabled>Select an option</option>
+              <option value="Bank">Bank</option>
+              <option value="Cash">Cash</option>
+              <option value="UPI">UPI</option>
+              <option value="Cards">Cards</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+
+          <div>
+            <p class="add-income-elements-para">
+              Category
+            </p>
+            <select class="account-and-category-select-bar js-add-income-category" name="choices" id="choices">
+              <option value="" selected disabled>Select an option</option>
+              <option value="Salary">Salary</option>
+              <option value="Investment">Investment</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+
+          <div>
+            <p class="add-income-elements-para">
+              Date
+            </p>
+            <input class="date-bar js-add-income-date" type="date">
+          </div>
+
+        </div>
+
+        <div class="clear-submit-buttom-division">
+          <button onclick="clearincome();" class="clear-button">
+            clear
+          </button>
+          <button onclick="submitIncome();" class="submit-button">
+            submit
+          </button>
+        </div>
+        
+      </div>
+
+      <div class="income-right-division">
+        <p class="income-records-heading">Income Recodes</p>
+        
+        <div class="income-record-head-division">
+          <div class="income-record-title">TITLE</div>
+          <div class="income-record-amount">AMOUNT</div>
+          <div class="income-record-account">ACCOUNT</div>
+          <div class="income-record-category">CATEGORY</div>
+          <div class="income-record-date">DATE</div>
+        </div>
+
+        <div class="income-records js-income-record"></div>
+
+      </div>
+
+    </div>
+    <script src="javaS/income.js"></script>
+
+  </body>
+</html>

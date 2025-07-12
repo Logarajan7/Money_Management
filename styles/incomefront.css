@@ -1,0 +1,256 @@
+.income-top-division {
+  position: fixed;
+  top: 0;
+  display: grid;
+  grid-template-columns: 300px 1240px;
+  height: 100px;
+  border-bottom-style: solid;
+  border-color: lightgray;
+}
+
+.income-moneymap {
+  background-color: #003262;
+  display: inline-block;
+  text-align: center;
+}
+
+.moneymap-button {
+  font-size: 30px;
+  font-family: impact;
+  margin-top: 27px;
+  color: white;
+  background-color: #003262;
+  border: none;
+  cursor: pointer;
+}
+
+.income-income {
+  background-color: rgb(15, 82, 186);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding-top: 17px;
+  font-size: 54px;
+}
+
+.income-bottom-division {
+  height: 599px;
+}
+
+.income-left-division {
+  position: fixed;
+  top: 100px;
+  background-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-color: rgb(224, 224, 224);
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  height: 748.4px;
+  width: 607.67px;
+}
+
+.add-income-heading-division {
+  color: #00B9E8;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  margin-left: 223px;
+}
+
+.income-add-division {
+  border-style: solid;
+  border-color: #003262;
+  background-color: #45B1E8;
+  margin: 0 75px;
+  height: 480px;
+  border-width: 2px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 96px 96px 96px 96px 96px;
+}
+
+.add-income-elements-para {
+  font-family: arial;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0px 10px 10px;
+}
+
+.title-and-amount-bar {
+  font-family: arial;
+  font-size: 20px;
+  color: #003262;
+  margin: 0px 0px 0px 10px;
+  padding: 3px 100px 3px 5px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(0, 50, 98);
+  box-shadow: 10px 10px 10px rgba(0, 50, 98, 0.3);
+}
+
+.account-and-category-select-bar {
+  font-family: arial;
+  color: #003262;
+  font-size: 20px;
+  margin: 0px 0px 0px 10px;
+  padding: 3px 185px 3px 5px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #003262;
+  box-shadow: 10px 10px 10px rgba(0, 50, 98, 0.3);
+}
+
+.date-bar {
+  font-family: arial;
+  color: #003262;
+  font-size: 20px;
+  margin: 0px 0px 0px 10px;
+  padding: 3px 5px 3px 5px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #003262;
+  box-shadow: 10px 10px 10px rgba(0, 50, 98, 0.3);
+}
+
+.clear-submit-buttom-division {
+  height: 50px;
+  margin-top: 10px;
+  padding-left: 380px;
+}
+
+.clear-button,
+.submit-button {
+  font-size: 20px;
+  color: #003262;
+  background-color: white;
+  border-color: #003262;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 10px rgba(0, 50, 98, 0.3);
+  cursor: pointer;
+}
+
+.clear-button:hover,
+.submit-button:hover {
+  color: white;
+  background-color: #003262;
+}
+
+.clear-button:active,
+.submit-button:active {
+  opacity: 0.8;
+}
+
+.income-right-division {
+  margin-left: 607.67px;
+  margin-top: 130px;
+}
+
+.income-records-heading {
+  margin: 0;
+  color: #00B9E8;
+  font-family: arial;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+}
+
+.income-record-head-division {
+  width: 870px;
+  display: grid;
+  grid-template-columns: 170px 140px 145px 170px 150px;
+  margin-left: 21px;
+  margin-top: 37px;
+}
+
+.income-record-title,
+.income-record-amount,
+.income-record-account,
+.income-record-category,
+.income-record-date {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #003262;
+}
+
+.income-record-title {
+  padding-left: 50px;
+}
+
+.income-record-amount {
+  padding-left: 20px;
+}
+
+.income-record-account {
+  padding-left: 20px;
+}
+
+.income-record-category {
+  padding-left: 27px;
+}
+
+.income-record-date {
+  padding-left: 35px;
+}
+
+.income-records {
+  width: 870px;
+  display: grid;
+  grid-template-columns: 170px 140px 145px 170px 150px 1fr;
+  margin-left: 21px;
+  margin-top: 30px;
+}
+
+.income-table-record-title,
+.income-table-record-amount,
+.income-table-record-account,
+.income-table-record-category,
+.income-table-record-date {
+  font-family: arial;
+  font-size: 20px;
+  padding-top: 4px;
+  margin-bottom: 20px;
+}
+
+.income-table-record-title {
+  padding-left: 40px;
+}
+
+.income-table-record-amount {
+  padding-left: 20px;
+}
+
+.income-table-record-account {
+  padding-left: 20px
+}
+
+.income-table-record-category {
+  padding-left: 12px;
+}
+
+.income-table-record-date {
+  padding-left: 17px;
+}
+
+.income-table-delete-button {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 3px 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+

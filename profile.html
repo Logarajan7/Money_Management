@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PROFILE</title>
+  <link rel="stylesheet" href="styles/profile.css">
+</head>
+
+<body class="body-style">
+
+  <div class="front-top">
+
+    <div class="money-map-division">
+      <p class="money-map">MONEYMAP</p>
+    </div>
+
+    <div class="profile-head-division">
+      <p style="margin: 0;">PROFILE</p>
+    </div>
+
+  </div>
+
+  <div class="front-bottom">
+
+    <div class="front-left">
+
+      <div class="dashboard-side-division">
+        <button id="dashboardButton" class="dashboard-element">DASHBOARD</button>
+      </div>
+
+      <div class="chart-division">
+        <button id="chartButton" class="chart-element">CHART</button>
+      </div>
+
+      <div class="calendar-division">
+        <button id="calendarButton" class="calendar-element">CALENDAR</button>
+      </div>
+
+      <div class="generate-report-division">
+        <button id="generateReportButton" class="generate-report-element">GENERATE REPORT</button>
+      </div>
+
+      <div class="total-division">
+        <button id="totalButton" class="total-element">TOTAL</button>
+      </div>
+
+    </div>
+
+    <div class="js-profile-right" style="background-color: rgb(241, 241, 241)">
+
+      <div class="profile-manage">
+
+        <div class="profile-img-division">
+          <img class="js-profile-img profile-img" src="photoss/blank-profile-picture.webp" alt="Profile Image">
+        </div>
+
+        <div class="profile-details-division">
+
+          <div class="js-profile-detail-name profile-detail-name">User Name</div>
+
+          <div class="js-profile-detail-mail profile-detail-mail">Mail ID</div>
+
+          <div class="js-profile-detail-contact profile-detail-contact">Contact No</div>
+
+          <div class="profile-detail-edit">
+            <button class="profile-edit-button">Edit</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="profile-change js-profile-changes" style="display: none;">
+
+        <div style="font-family: arial; font-size: 20px; color: #003262;">Edit Profile</div>
+
+        <div class="">
+          <label for="newProfileImg" style="font-family: arial; font-size: 20px; color: #003262;">Profile Image:</label>
+          <input type="file" id="newProfileImg" class="new-profile-img js-new-profile-img"><br><br>
+        </div>
+
+        <div>
+          <label for="newName" style="font-family: arial; font-size: 20px; color: #003262;">Name:</label>
+          <input type="text" id="newName" class="js-new-name" placeholder="Enter new name" style="font-size: 16px;"><br><br>
+        </div>
+
+        <div>
+          <label for="newMail" style="font-family: arial; font-size: 20px; color: #003262;">Mail ID:</label>
+          <input type="email" id="newMail" class="new-mailid js-new-mail" placeholder="Enter new mail ID" style="font-size: 16px;"><br><br>
+        </div>
+
+        <div>
+          <label for="newContact" style="font-family: arial; font-size: 20px; color: #003262;">Contact No:</label>
+          <input type="text" id="newContact" class="new-contatno js-new-contact" placeholder="Enter new contact no" style="font-size: 16px;"><br><br>
+        </div>
+
+        <div>
+          <button class="profile-set-button">Set</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="javaS/profile.js"></script>
+
+</body>
+
+</html>
